@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArrayPfObject</title>
+</head>
+<body>
+    <script>
+         var student={
+             id:1,
+             name:"shweta"
+             ,salary:5000
+            };
+        //    {id:2,name:"Manish", salary:9000},
+        //      { id:3,name:"dipa",salary:8000}];
+        // console.log(student)
+        // for(var a=0;a<student.length;a++){
+        //     document.write(student[a].id+""+student[a].name+" "+"</br>")
+        // }
+
+        // const a={
+        //     id:1,
+        //     name:"megha"
+        // }
+        // a.name="radha"
+        // a.id=2
+        // console.log(a)
+        for(var key in student){
+      document.write(key+":"+student[key] + "<br>")
+        // document.write(key+":");
+         }
+    </script>
+</body>
+</html>
